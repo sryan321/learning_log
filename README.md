@@ -24,38 +24,38 @@ It allows users to create, view and manage entries related to topics or subjects
 
 Clone this repository to your local machine:
 
-git clone https://github.com/sryan321/learning-log.git
-cd learning-log
+    git clone https://github.com/sryan321/learning-log.git
+    cd learning-log
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
 
 It's recommended to use a virtual environment to isolate the project dependencies:
 
-python3 -m venv venv
+    python3 -m venv venv
 
 Activate the virtual environment:
 
 On Windows:
 
-venv\Scripts\activate
+    venv\Scripts\activate
 
 On macOS/Linux:
 
-source venv/bin/activate
+    source venv/bin/activate
 
 
 ### 3. Install Dependencies
 
 Install the required packages using pip:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 ### 4. Set Up the Database
 
 Run the following command to apply the initial migrations and set up the database:
 
-python manage.py migrate
+    python manage.py migrate
 
 
 ### 5. Run the Development Server
