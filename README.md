@@ -62,7 +62,7 @@ Run the following command to apply the initial migrations and set up the databas
 
 To start the Django development server, use the following command:
 
-python manage.py runserver
+    python manage.py runserver
 
 Visit http://127.0.0.1:8000 in your web browser to view the application.
 
@@ -72,18 +72,18 @@ Visit http://127.0.0.1:8000 in your web browser to view the application.
 
 Once the server is running, you can:
 
-    Create a learning log entry: After logging in (if authentication is enabled), go to the "Add New Entry" page, fill in the details about your learning experience and submit the form.
-    View all entries: The homepage will display a list of all your learning entries. You can click on any entry to view its details.
-    Edit or delete an entry: If you created an entry, you can edit or delete it via the entry's detail page.
+Create a learning log entry: After logging in (if authentication is enabled), go to the "Add New Entry" page, fill in the details about your learning experience and submit the form.
+View all entries: The homepage will display a list of all your learning entries. You can click on any entry to view its details.
+Edit or delete an entry: If you created an entry, you can edit or delete it via the entry's detail page.
 
 ### Configuration
 
-    Database: The application uses SQLite by default, but you can configure it to use other databases such as PostgreSQL or MySQL by updating the DATABASES setting in settings.py.
+Database: The application uses SQLite by default, but you can configure it to use other databases such as PostgreSQL or MySQL by updating the DATABASES setting in settings.py.
 
-    Authentication: The application supports user authentication. Users can create an account to log in and have their own separate learning logs.
+Authentication: The application supports user authentication. Users can create an account to log in and have their own separate learning logs.
 
 ### Running Tests
 
 To run tests for the Learning Log app, use the Django test command:
 
-python manage.py test
+    python manage.py test
